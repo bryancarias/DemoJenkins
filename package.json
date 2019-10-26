@@ -1,0 +1,23 @@
+{
+  "name": "demojenkins",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryancarias/DemoJenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryancarias/DemoJenkins/issues"
+  },
+  "homepage": "https://github.com/bryancarias/DemoJenkins#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
