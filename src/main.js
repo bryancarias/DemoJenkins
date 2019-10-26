@@ -5,7 +5,9 @@ const app = expres();
 
 app.set('port', process.env.PORT || 3000)
 
-
+app.use('/user', (req, res) => {
+    res.json({messaje:'Enviando Mensaje utilizando jenkins'})
+})
 
 
 app.listen(app.get('port'), ()=> {
